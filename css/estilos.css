@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+@font-face {
+    font-family: "Bubbler";
+    src: url("../font/BubblerOne-Regular.ttf");
+}
+
+body {
+    font-family: Chilanka;
+    background-color: #9FA8DA;
+}
+
+header {
+    background-color: #5C6BC0  ;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logotipo {
+    width: 80px;
+}
+a#links{
+    font-size: 1.7rem;
+    padding-right: 25px;
+}
+h1#Perfil {
+    color: black;
+}
+p{
+    text-align: justify;
+    font-family: Bubbler;
+}
+p#parrafo {
+    color: black;
+    text-align: center;
+}
+
+#quien {
+    min-height: 100vh;       /* Hace que la sección ocupe toda la altura de la pantalla inicial */
+    margin-top: 80px;
+    display: flex;
+    align-items: center;     /* Centra verticalmente el contenido de la sección */
+    padding: 0 !important;   /* Elimina cualquier padding extra para que toque los bordes */
+}
+
+#me {
+    width: 100%;
+    height: 85vh;            
+    object-fit: cover;       /* Evita que la foto se deforme al ajustarse al alto */
+}
+
+.btn{
+    background-color: #5C6BC0;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+footer{
+    background-color: #5C6BC0;
+}
+
+section#proyectos{
+    margin-top: 75px;
+}
+
+/* Contacto */
+#menu_contact {
+    background: url(../image/pxfuel.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#glass {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 25px;
+    backdrop-filter: blur(20px);
+}
+
+input {
+    width: 90%;
+    margin: 10px;
+    border: none;
+    padding: 12px;
+    color: #3F51B5;
+    font-size: 1.3rem;
+}
+
+input:focus {
+    outline: 0px;
+    color: #fff;
+    background-color: #3F51B5;
+}
+
+input[type="submit"] {
+    font-family: Bubbler, cursive;
+    color: #fff;
+    background-color: #3F51B5;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: 130px;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #3F51B5;
+    cursor: pointer;
+}
+
+/*a#redes{ 
+    color: black;
+}
+
+#mapa {
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+}

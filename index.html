@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis R. Valdivia A.</title>
+    <!--Links apps externas u otros-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="iconos/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark py-0  fixed-top">
+        <nav class="container">
+            <!--Para Logo-->
+            <a class="navbar-brand" href="#">
+                <img src="iconos/favicon-32x32.png" alt="Logo" class="d-inline-block align-text-middle logotipo text-black">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <!--Para Links Superiores-->
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div  class="navbar-nav ms-auto">
+                    <!--Para ir a otra pagina poner el archivo index-->
+                    <a id="links" class="nav-link" href="index.html">Inicio</a>
+                    <a id="links" class="nav-link" href="proyectos.html">Proyectos</a>
+                    <a id="links" class="nav-link" href="sobreMi.html">Sobre Mi</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!--Primer Bloque-->
+    <section id="quien" class="container-fluid px-0 py-5">
+        <div class="row align-items-center g-0">
+            <!-- Para Foto -->
+            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 mb-0">
+                <img id="me" src="imagenes/p05.png" alt="Desarrollador" class="img-fluid w-100 border-primary">
+            </figure>
+            <!-- Para Texto -->
+            <article class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 text-center text-lg-center px-4">
+                <p id="parrafo" class="collapse d-lg-block fs-3 mb-3">Hola. Mi nombre es
+                <!-- Cambiamos el id del título para que no se repita -->
+                <h1 id="Perfil" class="display-5 fw-bold mb-3">Luis R. Valdivia A.</h1>
+                <!-- Este párrafo mantiene el id que activará el colapso -->
+                <p id="parrafo" class="collapse d-lg-block fs-3 mb-3">
+                    Soy un diseñador y desarrollador especializado en el área de entornos virtuales. 
+                    Apasionado por el modelado 3D con Blender y la creación de experiencias digitales interactivas.
+                </p>
+                
+                <!-- Botón que activa el collapse en dispositivos móviles -->
+                <a class="btn d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="parrafo">
+                    ¡Cuéntame más!
+                </a>
+            </article>
+        </div>
+    </section>
+
+<!--Segundo Bloque-->
+    <section id="proyectos" class="py-5 container">
+    <h1 class="display-6 fw-bold text-center mb-4">Especialización en Modelado 3D y Diseño Digital</h1>
+    <div class="row">
+        <!--Imagen 1-->
+        <article class="col-12 col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="imagenes/f1.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Mesa">
+            </div>
+        </article>
+
+        <!--Imagen 2-->
+        <article class="col-12 col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="imagenes/f2.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Rubik, Taza, Mouse">
+            </div>
+        </article>
+
+        <!--Imagen 3-->
+        <article class="col-12 col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="imagenes/f3.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Silla">
+            </div>
+        </article>
+
+        <!--Imagen 4-->
+        <article class="col-12 col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="imagenes/f4.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Mesa">
+            </div>
+        </article>
+        <!--Imagen 5-->
+        <article class="col-12 col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="imagenes/f5.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Mesa">
+            </div>
+        </article>
+        <!--Imagen 6-->
+        <article class="col-12 col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="imagenes/f7.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Mesa">
+            </div>
+        </article>
+    </div>
+    </section>
+
+<!-- TERCER BLOQUE: Cualidades y Habilidades -->
+    <section id="habilidades" class="container-fluid px-0 py-5">
+        <div class="row align-items-center g-0">
+            
+            <!--Para Imagen-->
+            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 mb-0">
+                <img src="imagenes/p02.jpg" alt="Herramientas de Trabajo" class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 450px;">
+            </figure>
+            
+            <!--Para la columna derecha-->
+            <article class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 px-4 px-lg-5 py-4 text-dark">
+                
+                <!--Primer Tirulo-->
+                <h3 class="fw-bold mb-4" style="letter-spacing: 1px;">CUALIDADES ESPECIALES</h3>
+                
+                <!--Para Texto.01 con las viñetas-->
+                <ul class="list-unstyled mb-5">
+                    <li class="mb-2">+ Experiencia en diseño de entornos virtuales y modelado 3D</li>
+                    <li class="mb-2">+ Desarrollo Web responsivo con HTML5, CSS3 y Bootstrap</li>
+                    <li class="mb-2">+ Enfoque en calidad visual y optimización</li>
+                    <li class="mb-2">+ Pasión por la programación interactiva</li>
+                </ul>
+
+                <!--Segundo Titulo-->
+                <h3 class="fw-bold mb-4" style="letter-spacing: 1px;">NUESTRAS HABILIDADES</h3>
+                
+                <!--Para Texto.002 con la barra de progreso de bootstrap-->
+
+                <!-- Habilidad 1-->
+                <p class="mb-1 fw-bold">BLENDER / MODELADO 3D</p>
+                <div class="progress mb-3" role="progressbar" aria-label="Blender" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                    <div class="progress-bar bg-dark text-white fw-bold" style="width: 85%">85%</div>
+                </div>
+
+                <!-- Habilidad 2-->
+                <p class="mb-1 fw-bold">HTML Y CSS</p>
+                <div class="progress mb-3" role="progressbar" aria-label="HTML y CSS" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                    <div class="progress-bar bg-dark text-white fw-bold" style="width: 70%">70%</div>
+                </div>
+
+                <!-- Habilidad 3-->
+                <p class="mb-1 fw-bold">BOOTSTRAP</p>
+                <div class="progress mb-3" role="progressbar" aria-label="Bootstrap" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                    <div class="progress-bar bg-dark text-white fw-bold" style="width: 70%">70%</div>
+                </div>
+
+                <!-- Habilidad 4-->
+                <p class="mb-1 fw-bold">DISEÑO UX / UI</p>
+                <div class="progress mb-3" role="progressbar" aria-label="UX UI" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                    <div class="progress-bar bg-dark text-white fw-bold" style="width: 85%">85%</div>
+                </div>
+
+                <!-- Habilidad 5-->
+                <p class="mb-1 fw-bold">FOTOGRAFIA</p>
+                <div class="progress mb-3" role="progressbar" aria-label="UX UI" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                    <div class="progress-bar bg-dark text-white fw-bold" style="width: 65%">65%</div>
+                </div>
+
+            </article>
+        </div>
+    </div>
+</section>
+
+<!--Cuarto Bloque-->
+    <section id="filosofia" class="text-center text-black py-5">
+        <article class="container py-4">
+            <img src="imagenes/h02.png" alt="Perfil" class="img-fluid rounded-circle d-none d-lg-inline mb-4 shadow" style="width: 120px; height: 120px; object-fit: cover;">
+            <p class="fs-3 fst-italic mb-3">
+                "El diseño no es solo lo que se ve y se siente, sino cómo funciona. Creando espacios virtuales que cobran vida a través del código."
+            </p>
+            <span class="h5 fw-bold">- Luis Rodrigo Valdivia Ambriz</span>
+        </article>
+    </section>
+
+    <footer class="container-fluid text-white text-center">
+        <p class="py-3 h5"> Copyright 2026 - Luis Rodrigo Valdivia Ambriz</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

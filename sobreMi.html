@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mi</title>
+    <!--Links apps externas u otros-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="iconos/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark py-0  fixed-top">
+        <nav class="container">
+            <!--Para Logo-->
+            <a class="navbar-brand" href="#">
+                <img src="iconos/favicon-32x32.png" alt="Logo" class="d-inline-block align-text-middle logotipo text-black">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <!--Para Links Superiores-->
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div  class="navbar-nav ms-auto">
+                    <!--Para ir a otra pagina poner el archivo index-->
+                    <a id="links" class="nav-link" href="index.html">Inicio</a>
+                    <a id="links" class="nav-link" href="proyectos.html">Proyectos</a>
+                    <a id="links" class="nav-link" href="sobreMi.html">Sobre Mi</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!--Primer Bloque-->
+    <section id="quien" class="container-fluid px-0 py-5">
+        <div class="row align-items-center g-0">
+            <!-- Para Foto -->
+            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 mb-0">
+                <img id="me" src="imagenes/p06.png" alt="Desarrollador" class="img-fluid w-100 border-primary">
+            </figure>
+            <!-- Para Texto -->
+            <article id="texto" class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 text-center text-lg-center px-4">
+                <!-- Este párrafo mantiene el id que activará el colapso -->
+                <p class="collapse d-lg-block fs-5">
+                    Soy diseñador y entusiasta del entorno digital, residente en León, Guanajuato, y orgullosamente estudiante de la UTL. Empecé a explorar el modelado 3D como un hobby mientras descubría el vasto mundo de la tecnología, y con el tiempo convertí esa fascinación por crear espacios virtuales en mi gran pasión y enfoque profesional.</p>
+                <p class="collapse d-lg-block fs-5">
+                    Sé por experiencia que dominar el diseño y el desarrollo digital puede ser un reto apasionante, por lo que disfruto experimentando, creando nuevos proyectos y aprendiendo cada día cómo transformar ideas abstractas en realidades tridimensionales dentro de la carrera de Entornos Virtuales y Negocios Digitales.</p>
+                <p class="collapse d-lg-block fs-5">
+                    Después de horas frente al monitor corrigiendo geometrías, me doy cuenta de que el diseño perfecto requiere tiempo y dedicación, pero ver cobrar vida a un objeto tridimensional hace que cada segundo valga la pena.</p>
+                <p class="collapse d-lg-block fs-5">
+                    Actualmente me encuentro cursando Entornos Virtuales y Negocios Digitales en la Universidad Tecnológica de León (UTL). Estoy de vuelta en el estudio y disponible para nuevos proyectos creativos, modelado 3D y colaboraciones digitales (¡sobre todo los relacionados con la creación de mundos virtuales!).</p>
+                
+                <!-- Botón que activa el collapse en dispositivos móviles -->
+                <a class="btn d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="parrafo">
+                    ¡Cuéntame más!
+                </a>
+            </article>
+        </div>
+    </section>
+
+<!--Bloque Contacto-->
+    <section class="contenedor" id="menu_contact">
+        <article id="glass">
+            <h2 class="titulo">Contacto para Informacion</h2>
+            <form action="">
+                <p class="fs-5 fw-bold text-dark mb-1">Nombres</p>
+                <input type="text">
+                <p class="fs-5 fw-bold text-dark mb-1">Apellidos</p>
+                <input type="text">
+                <p class="fs-5 fw-bold text-dark mb-1">Correo Electronico</p>
+                <input type="email">
+                <p class="fs-5 fw-bold text-dark mb-1">Asunto</p>
+                <input type="text">
+                <input type="submit" class="boton" value="Guardar">
+            </form>
+        </article>
+    </section>
+
+<!--Bloque Redes Sociales-->
+    <section class="py-4 text-center">
+        <div class="container">
+            <h5 class="fw-bold mb-3 fs-1">¡Sígueme en mis redes!</h5>
+            <div class="d-flex justify-content-center gap-4">
+                <a id="redes" href="https://www.instagram.com/lrodrigoval19/" target="_blank" class="fs-3 fw-bold text-danger-emphasis">@lrodrigoval19
+                    <i class="bi bi-instagram "></i>
+                </a>
+                <a id="redes" href="https://www.facebook.com/luisrodrigo.valdiviaambriz.1" target="_blank" class=" fs-3 fw-bold text-info-emphasis">Facebook
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a id="redes" href="" target="_blank" class=" fs-3 fw-bold text-dark">lrodrigoval19@gmail.com
+                    <i class="bi bi-google"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+        
+<!--Bloque (Google Maps)-->
+    <section>
+        <iframe id="mapa"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.2262963342782!2d-101.58422908873723!3d21.06362208649845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1792971657142!5m2!1ses!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+    </section>
+
+    <footer class="container-fluid text-white text-center">
+        <p class="py-3 h5"> Copyright 2026 - Luis Rodrigo Valdivia Ambriz</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
