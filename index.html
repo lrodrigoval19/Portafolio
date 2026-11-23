@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luis R. Valdivia A.</title>
+    <title>LRVA</title>
     <!--Links apps externas u otros-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="iconos/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="iconos/Logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <nav class="container">
             <!--Para Logo-->
             <a class="navbar-brand" href="#">
-                <img src="iconos/favicon-32x32.png" alt="Logo" class="d-inline-block align-text-middle logotipo text-black">
+                <img src="iconos/Logo.png" alt="Logo" class="d-inline-block align-text-middle logotipo text-black">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
                     <!--Para ir a otra pagina poner el archivo index-->
                     <a id="links" class="nav-link" href="index.html">Inicio</a>
                     <a id="links" class="nav-link" href="proyectos.html">Proyectos</a>
-                    <a id="links" class="nav-link" href="sobreMi.html">Sobre Mi</a>
+                    <a id="links" class="nav-link" href="contacto.html">Contacto</a>
                 </div>
             </div>
         </nav>
@@ -38,7 +38,7 @@
         <div class="row align-items-center g-0">
             <!-- Para Foto -->
             <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 mb-0">
-                <img id="me" src="imagenes/p05.png" alt="Desarrollador" class="img-fluid w-100 border-primary">
+                <img id="me" src="imagenes/p08.jpeg" alt="Desarrollador" class="img-fluid w-100 border-danger">
             </figure>
             <!-- Para Texto -->
             <article class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 text-center text-lg-center px-4">
@@ -58,54 +58,76 @@
             </article>
         </div>
     </section>
-
 <!--Segundo Bloque-->
+    <section id="quien" class="container-fluid px-0 py-5">
+        <div class="row align-items-center g-0">
+            <!-- Para Foto -->
+            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 mb-0">
+                <img id="me" src="imagenes/p06.png" alt="Desarrollador" class="img-fluid w-100 border-danger">
+            </figure>
+            <!-- Para Texto -->
+            <article id="texto" class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 text-center text-lg-center px-4">
+                <!-- Este párrafo mantiene el id que activará el colapso -->
+                <p class="collapse d-lg-block fs-5">
+                    Soy diseñador y entusiasta del entorno digital, residente en León, Guanajuato, y orgullosamente estudiante de la UTL. Empecé a explorar el modelado 3D como un hobby mientras descubría el vasto mundo de la tecnología, y con el tiempo convertí esa fascinación por crear espacios virtuales en mi gran pasión y enfoque profesional.</p>
+                <p class="collapse d-lg-block fs-5">
+                    Sé por experiencia que dominar el diseño y el desarrollo digital puede ser un reto apasionante, por lo que disfruto experimentando, creando nuevos proyectos y aprendiendo cada día cómo transformar ideas abstractas en realidades tridimensionales dentro de la carrera de Entornos Virtuales y Negocios Digitales.</p>
+                <p class="collapse d-lg-block fs-5">
+                    Después de horas frente al monitor corrigiendo geometrías, me doy cuenta de que el diseño perfecto requiere tiempo y dedicación, pero ver cobrar vida a un objeto tridimensional hace que cada segundo valga la pena.</p>
+                <p class="collapse d-lg-block fs-5">
+                    Actualmente me encuentro cursando Entornos Virtuales y Negocios Digitales en la Universidad Tecnológica de León (UTL). Estoy de vuelta en el estudio y disponible para nuevos proyectos creativos, modelado 3D y colaboraciones digitales (¡sobre todo los relacionados con la creación de mundos virtuales!).</p>
+                <!-- Botón que activa el collapse en dispositivos móviles -->
+                <a class="btn d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="parrafo">
+                    ¡Cuéntame más!
+                </a>
+            </article>
+        </div>
+    </section>
+
+<!--Tercer Bloque-->
     <section id="proyectos" class="py-5 container">
     <h1 class="display-6 fw-bold text-center mb-4">Especialización en Modelado 3D y Diseño Digital</h1>
     <div class="row">
-        <!--Imagen 1-->
-        <article class="col-12 col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="imagenes/f1.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Mesa">
+        
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
             </div>
-        </article>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="imagenes/f10.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="imagenes/f2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="imagenes/f9.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <video class="d-block w-100" controls preload="metadata">
+                        <source src="medios/Unidad-3-Tarea-anim-cámara_001.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video en HTML5.
+                    </video>
+                </div>
 
-        <!--Imagen 2-->
-        <article class="col-12 col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="imagenes/f2.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Rubik, Taza, Mouse">
             </div>
-        </article>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-        <!--Imagen 3-->
-        <article class="col-12 col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="imagenes/f3.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Silla">
-            </div>
-        </article>
-
-        <!--Imagen 4-->
-        <article class="col-12 col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="imagenes/f4.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Mesa">
-            </div>
-        </article>
-        <!--Imagen 5-->
-        <article class="col-12 col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="imagenes/f5.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Mesa">
-            </div>
-        </article>
-        <!--Imagen 6-->
-        <article class="col-12 col-md-4 mb-3">
-            <div class="card h-100">
-                <img src="imagenes/f7.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Modelado Mesa">
-            </div>
-        </article>
     </div>
     </section>
 
-<!-- TERCER BLOQUE: Cualidades y Habilidades -->
+<!-- Cuarto Bloque: Cualidades y Habilidades -->
     <section id="habilidades" class="container-fluid px-0 py-5">
         <div class="row align-items-center g-0">
             
@@ -168,7 +190,7 @@
     </div>
 </section>
 
-<!--Cuarto Bloque-->
+<!--Quinto Bloque
     <section id="filosofia" class="text-center text-black py-5">
         <article class="container py-4">
             <img src="imagenes/h02.png" alt="Perfil" class="img-fluid rounded-circle d-none d-lg-inline mb-4 shadow" style="width: 120px; height: 120px; object-fit: cover;">
@@ -177,7 +199,7 @@
             </p>
             <span class="h5 fw-bold">- Luis Rodrigo Valdivia Ambriz</span>
         </article>
-    </section>
+    </section> -->
 
     <footer class="container-fluid text-white text-center">
         <p class="py-3 h5"> Copyright 2026 - Luis Rodrigo Valdivia Ambriz</p>

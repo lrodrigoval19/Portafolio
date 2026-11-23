@@ -3,114 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos</title>
+    <title>LRVA_Proyectos</title>
     <!--Links apps externas u otros-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="iconos/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="iconos/Logo.png" type="image/x-icon">
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg navbar-dark py-0  fixed-top">
+    <header class="navbar navbar-expand-lg navbar-dark py-0 fixed-top">
         <nav class="container">
             <!--Para Logo-->
             <a class="navbar-brand" href="#">
-                <img src="iconos/favicon-32x32.png" alt="Logo" class="d-inline-block align-text-middle logotipo text-black">
+                <img src="iconos/Logo.png" alt="Logo" class="d-inline-block align-text-middle logotipo text-black">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        <!--Para Links Superiores-->
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div  class="navbar-nav ms-auto">
-                    <!--Para ir a otra pagina poner el archivo index-->
+                <div class="navbar-nav ms-auto">
                     <a id="links" class="nav-link" href="index.html">Inicio</a>
                     <a id="links" class="nav-link" href="proyectos.html">Proyectos</a>
-                    <a id="links" class="nav-link" href="sobreMi.html">Sobre Mi</a>
+                    <a id="links" class="nav-link" href="contacto.html">Contacto</a>
                 </div>
             </div>
         </nav>
     </header>
-    
+
     <section id="proyectos" class="py-5 container">
-        <h1 class="display-6 fw-bold text-center mb-4">Modelado 3D</h1>
-        <div class="row">
-            <!--Imagen 1-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f1.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto1">
-                </div>
-            </article>
+        <!-- Botones para mostrar/ocultar categorías -->
+        <div class="d-flex flex-wrap justify-content-center gap-2 mb-5">
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseModelado" aria-expanded="true" aria-controls="collapseModelado">
+                Modelado 3D
+            </button>
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFotografia" aria-expanded="true" aria-controls="collapseFotografia">
+                Fotografía
+            </button>
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideos" aria-expanded="true" aria-controls="collapseVideos">
+                Videos
+            </button>
+        </div>
 
-            <!--Imagen 2-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f2.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto2">
-                </div>
-            </article>
+        <!------------------------------------------MODELADO------------------------------------------>
+        <div class="collapse mb-5" id="collapseModelado">
+            <h1 class="display-6 fw-bold text-center mb-4">Modelado 3D</h1>
+            <div class="row">
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f1.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto1">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f2.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto2">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f3.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto3">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f8.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto4">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f9.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto5">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f10.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto6">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f11.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto7">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f12.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto8">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f13.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto9">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f14.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto10">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f15.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto11">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f16.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto12">
+                    </div>
+                </article>
+            </div>
+        </div>
 
-            <!--Imagen 3-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f3.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto3">
-                </div>
-            </article>
-            <!--Imagen 4-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f8.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto4">
-                </div>
-            </article>
-            <!--Imagen 5-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f9.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto5">
-                </div>
-            </article>
-            <!--Imagen 6-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f10.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto6">
-                </div>
-            </article>
-            <!--Imagen 7-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f11.png" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto7">
-                </div>
-            </article>
-            
-        <h1 class="display-6 fw-bold text-center mb-4">Fotografia</h1>
-            <!--Imagen 1-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f4.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto1">
-                </div>
-            </article>
-            <!--Imagen 2-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f5.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto2">
-                </div>
-            </article>
-            <!--Imagen 3-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f7.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto3">
-                </div>
-            </article>
-            <!--Imagen 4-->
-            <article class="col-12 col-md-4 mb-3">
-                <div class="card h-100">
-                    <img src="imagenes/f6.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Proyecto3">
-                </div>
-            </article>
+        <!------------------------------------------FOTOGRAFIA------------------------------------------>
+        <div class="collapse mb-5" id="collapseFotografia">
+            <h1 class="display-6 fw-bold text-center mb-4">Fotografía</h1>
+            <div class="row">
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f4.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Foto1">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f5.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Foto2">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f7.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Foto3">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f6.jpeg" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Foto4">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f17.jfif" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Foto5">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f18.jfif" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Foto6">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f19.jfif" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Foto7">
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3">
+                    <div class="card h-100">
+                        <img src="imagenes/f20.jfif" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" alt="Foto8">
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!------------------------------------------VIDEOS------------------------------------------>
+        <div class="collapse" id="collapseVideos">
+            <h1 class="display-6 fw-bold text-center mb-4">Videos</h1>
+            <div class="row">
+                <article class="col-12 col-md-4 mb-3 otros">
+                    <div class="card h-100">
+                        <video src="medios/Unidad-3-Tarea-anim-cámara_001.mp4" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" controls preload="metadata"></video>
+                    </div>
+                </article>
+                <article class="col-12 col-md-4 mb-3 otros">
+                    <div class="card h-100">
+                        <video src="medios/VID-20261003-WA0000.mp4" class="card-img-top img-fluid w-100" style="height: 220px; object-fit: cover;" controls preload="metadata"></video>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 
     <footer class="container-fluid text-white text-center">
-        <p class="py-3 h5"> Copyright 2026 - Luis Rodrigo Valdivia Ambriz</p>
+        <p class="py-3 h5">Copyright 2026 - Luis Rodrigo Valdivia Ambriz</p>
     </footer>
-    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
