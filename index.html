@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="iconos/Logo.png" type="image/x-icon">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header class="navbar navbar-expand-lg navbar-dark py-0  fixed-top">
         <nav class="container">
             <!--Para Logo-->
@@ -58,28 +58,35 @@
             </article>
         </div>
     </section>
+
 <!--Segundo Bloque-->
-    <section id="quien" class="container-fluid px-0 py-5">
+    <section id="bio" class="container-fluid px-0 py-5">
         <div class="row align-items-center g-0">
             <!-- Para Foto -->
-            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 mb-0">
-                <img id="me" src="imagenes/p06.png" alt="Desarrollador" class="img-fluid w-100 border-danger">
+            <figure class="col-12 col-lg-6 mb-3 mb-lg-0">
+                <img id="me-bio" src="imagenes/p06.png" alt="Desarrollador" class="img-fluid w-100 border-danger">
             </figure>
             <!-- Para Texto -->
-            <article id="texto" class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 text-center text-lg-center px-4">
-                <!-- Este párrafo mantiene el id que activará el colapso -->
-                <p class="collapse d-lg-block fs-5">
-                    Soy diseñador y entusiasta del entorno digital, residente en León, Guanajuato, y orgullosamente estudiante de la UTL. Empecé a explorar el modelado 3D como un hobby mientras descubría el vasto mundo de la tecnología, y con el tiempo convertí esa fascinación por crear espacios virtuales en mi gran pasión y enfoque profesional.</p>
-                <p class="collapse d-lg-block fs-5">
-                    Sé por experiencia que dominar el diseño y el desarrollo digital puede ser un reto apasionante, por lo que disfruto experimentando, creando nuevos proyectos y aprendiendo cada día cómo transformar ideas abstractas en realidades tridimensionales dentro de la carrera de Entornos Virtuales y Negocios Digitales.</p>
-                <p class="collapse d-lg-block fs-5">
-                    Después de horas frente al monitor corrigiendo geometrías, me doy cuenta de que el diseño perfecto requiere tiempo y dedicación, pero ver cobrar vida a un objeto tridimensional hace que cada segundo valga la pena.</p>
-                <p class="collapse d-lg-block fs-5">
-                    Actualmente me encuentro cursando Entornos Virtuales y Negocios Digitales en la Universidad Tecnológica de León (UTL). Estoy de vuelta en el estudio y disponible para nuevos proyectos creativos, modelado 3D y colaboraciones digitales (¡sobre todo los relacionados con la creación de mundos virtuales!).</p>
+            <article id="texto" class="col-12 col-lg-6 text-center px-3 px-md-5">
+                <div id="mas-info-bio" class="collapse d-lg-block">
+                    <p class="fs-5">
+                        Soy diseñador y entusiasta del entorno digital, residente en León, Guanajuato, y orgullosamente estudiante de la UTL. Empecé a explorar el modelado 3D como un hobby mientras descubría el vasto mundo de la tecnología, y con el tiempo convertí esa fascinación por crear espacios virtuales en mi gran pasión y enfoque profesional.
+                    </p>
+                    <p class="fs-5">
+                        Sé por experiencia que dominar el diseño y el desarrollo digital puede ser un reto apasionante, por lo que disfruto experimentando, creando nuevos proyectos y aprendiendo cada día cómo transformar ideas abstractas en realidades tridimensionales dentro de la carrera de Entornos Virtuales y Negocios Digitales.
+                    </p>
+                    <p class="fs-5">
+                        Después de horas frente al monitor corrigiendo geometrías, me doy cuenta de que el diseño perfecto requiere tiempo y dedicación, pero ver cobrar vida a un objeto tridimensional hace que cada segundo valga la pena.
+                    </p>
+                    <p class="fs-5">
+                        Actualmente me encuentro cursando Entornos Virtuales y Negocios Digitales en la Universidad Tecnológica de León (UTL). Estoy de vuelta en el estudio y disponible para nuevos proyectos creativos, modelado 3D y colaboraciones digitales (¡sobre todo los relacionados con la creación de mundos virtuales!).
+                    </p>
+                </div>
+
                 <!-- Botón que activa el collapse en dispositivos móviles -->
-                <a class="btn d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="parrafo">
+                <button class="btn d-lg-none mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#mas-info-bio" aria-expanded="false" aria-controls="mas-info-bio">
                     ¡Cuéntame más!
-                </a>
+                </button>
             </article>
         </div>
     </section>
@@ -201,8 +208,8 @@
         </article>
     </section> -->
 
-    <footer class="container-fluid text-white text-center">
-        <p class="py-3 h5"> Copyright 2026 - Luis Rodrigo Valdivia Ambriz</p>
+    <footer class="container-fluid text-white text-center mt-auto">
+        <p class="py-3 mb-0 h5">Copyright 2026 - Luis Rodrigo Valdivia Ambriz</p>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
